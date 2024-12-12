@@ -1,0 +1,114 @@
+.topbar1{
+    max-width: 1400px;
+    margin: auto;
+}
+.social-items,.cnt-items{
+    transition: all .3s ease-in;
+}
+.social-items:hover{
+    color: rgb(81, 250, 250);
+}
+.cnt-items{
+    color: rgb(81, 250, 250);
+    padding-right: .3rem;
+}
+.cnt-items:hover{
+    color: white;
+}
+.collapse ul li a{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn-1{
+    background-color: #1CC3B2;
+    transition: all .3s ease-in;
+}
+.btn-1:hover{
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+.imagess{
+    /* max-height: 66vh; */
+   
+    transition: all .5s ease-in;
+}
+.imagess:hover{
+    transform: scale(1.2);
+   
+}
+.img-div{
+    border-radius: 8px;
+}
+
+
+
+@media (min-width: 768px) {
+    .images1 {
+       max-height: 65.5vh;
+    }
+  }
+
+
+.services-card{
+    width: 195px;
+    height: 160px;
+    align-content: center;
+    text-align: center;
+    padding: 23px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.services-card img{
+    padding-bottom: 5px;
+}
+
+.card1{
+    max-width: 365px;
+    height: 445px;
+    transition: all .3s ease-in;
+}
+.card1:hover{
+   transform:translateY(-10px);
+}
+.bg-images{
+    background-image: url('./images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height:40vh;
+}
+.overlayy{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 40vh;
+}
+#email{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    padding-right: 55px;
+    border-radius: 30px;
+    border: none;
+}
+.para{
+    position: relative;
+}
+.para1{
+    position: absolute;
+    right: 80px;
+    top: 2px;
+    border-radius: 50px;
+    padding: 6px 10px;
+    background-color: rgb(81, 250, 250);
+    transition: all .3s ease;
+}
+.para1:hover{
+    background-color: black;
+}
+.custom1 button{
+    transition: all .4s ease-in;
+    border: none;
+    padding: 8px 40px;
+    background-color: transparent;
+    border: 1px solid rgb(81, 250, 250);
+}
+.custom1 button:hover{
+    background-color: rgb(81, 250, 250);
+}
